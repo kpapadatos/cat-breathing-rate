@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap");
+
+body,
+html,
+app-root {
+  @apply w-full h-full flex flex-col;
+
+  background-color: #e5cab9;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  user-select: none;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

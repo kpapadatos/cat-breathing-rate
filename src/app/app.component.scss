@@ -1,0 +1,11 @@
+:host {
+  @apply w-full h-full flex flex-col;
+
+  color: #4d474b;
+
+  .cat {
+    @apply w-full;
+
+    background-image: url(/catbg.png);
+  }
+}
